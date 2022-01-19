@@ -8,7 +8,7 @@ Los atributos `data-` son atributos de HTML que permiten incluir informaciones v
 <div id="first" data-color="red">...</div>
 <div id="second" data-age="81">...</div>
 ````
-Su estructura se basa en un prefijo `data-` seguido de un sufijo a elección, cuyo valor es accedido a través de Javascirpt mediante la propiedad `.dataset` y el sufijo elegido:
+Su estructura se basa en un prefijo `data-` seguido de un sufijo a elección, cuyo valor es accedido a través de Javascript mediante la propiedad `.dataset` y el sufijo elegido:
 
 ````javascript
 const colorValue = document.querySelector('#first').dataset.color   // red
