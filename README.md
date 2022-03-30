@@ -1,8 +1,4 @@
-# week2_day3
-Full development day
-
-
-## Extra: `data-` attributes in DOM
+# `data-` attributes in DOM
 Los atributos `data-` son atributos de HTML que permiten incluir informaciones variadas que no se ajustan a ninguno de los atributos estándar disponibles en etiquetas:
 ````html
 <div id="first" data-color="red">...</div>
